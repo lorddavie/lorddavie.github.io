@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lord Davie | Portfolio</title>
+  <!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="Images/site.webmanifest">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<!-- Font Awesome (for icons like nav dashes, footer icons, etc.) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- SEO -->
+  <meta name="description" content="Lord Davie | Web Developer & Designer. Building modern, functional and professional websites.">
+  <meta name="keywords" content="Lord Davie, web developer, designer, portfolio, frontend, HTML CSS">
+  <meta name="author" content="Lord Davie">
+
+  <!-- Open Graph (WhatsApp & Facebook Preview) -->
+  <meta property="og:title" content="Lord Davie | Portfolio">
+  <meta property="og:description" content="Check out my professional portfolio showcasing modern web design and projects.">
+  <meta property="og:image" content="https://yourwebsite.com/preview.jpg">
+  <meta property="og:url" content="https://yourwebsite.com">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts Performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">LD</div>
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Hello, I’m <span>Lord Davie</span></h1>
+      <p>A passionate web developer & designer</p>
+      <a href="#portfolio" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <h2>My Services</h2>
+    <div class="grid grid-3">
+      <div class="card" data-animate>
+        <i class="fa-solid fa-code"></i>
+        <h3>Web Development</h3>
+        <p>I design and build clean, responsive websites tailored for businesses and individuals.</p>
+      </div>
+      <div class="card" data-animate>
+        <i class="fa-solid fa-paintbrush"></i>
+        <h3>Graphic Design</h3>
+        <p>From logos to digital assets, I create stunning visuals for brands and personal projects.</p>
+      </div>
+      <div class="card" data-animate>
+        <i class="fa-solid fa-mobile-screen"></i>
+        <h3>UI/UX Design</h3>
+        <p>I focus on creating user-friendly interfaces with modern, intuitive designs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <h2>Featured Work</h2>
+    <div class="grid grid-3">
+      <div class="card" data-animate>
+        <h3>Modern Website Layout</h3>
+        <p>Demo project showcasing a clean and modern website design.</p>
+      </div>
+      <div class="card" data-animate>
+        <h3>Graphic Design Pack</h3>
+        <p>A collection of professional graphics created for clients.</p>
+      </div>
+      <div class="card" data-animate>
+        <h3>Mobile UI Project</h3>
+        <p>UI design crafted for a mobile application interface.</p>
+      </div>
+    </div>
+    <section class="projects" id="projects">
+  <h2>My Projects</h2>
+  <div class="grid grid-3">
+    <div class="card" data-animate>
+      <img src="start-btn.png" alt="Start Button" class="portfolio-img">
+      <h3>Start Button</h3>
+      <p>A custom start button designed for games.</p>
+    </div>
+    
+    <div class="card" data-animate>
+      <img src="play-btn.png" alt="Play Button" class="portfolio-img">
+      <h3>Play Button</h3>
+      <p>A stylish play button for mobile game menus.</p>
+    </div>
+    
+    <div class="card" data-animate>
+      <img src="exit-btn.png" alt="Exit Button" class="portfolio-img">
+      <h3>Exit Button</h3>
+      <p>A neat exit button for mobile and PC games.</p>
+    </div>
+  </div>
+</section>
+<!-- Coming Soon -->
+<div class="card coming-soon">
+  <h3>More Game UI Icons</h3>
+  <p>Settings ⚙️ | Friends 👥 | Shop 🛒 and more...</p>
+  <p><em>Coming Soon...</em></p>
+</div>
+  <section> 
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm" action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+      <p id="formStatus"></p>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Lord Davie | All Rights Reserved</p>
+    <div class="socials">
+      <a href="https://github.com/lorddavie" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100082496465169" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/lord_davie?igsh=YzljYTk1ODg3Zg==" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://wa.me/message/L2XCZ64HFT7CE1" target="_blank"><i class="fab fa-whatsapp"></i></i></i></a>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Mobile Menu Toggle
+    const menuToggle = document.getElementById("menu-toggle");
+    const navLinks = document.getElementById("nav-links");
+    menuToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("show");
+    });
+
+    // Contact Form Submission
+    const form = document.getElementById("contactForm");
+    const status = document.getElementById("formStatus");
+
+    form.addEventListener("submit", async function(e) {
+      e.preventDefault();
+      const data = new FormData(form);
+      status.textContent = "⏳ Sending...";
+      status.style.color = "blue";
+
+      try {
+        let response = await fetch(form.action, {
+          method: form.method,
+          body: data,
+          headers: { 'Accept': 'application/json' }
+        });
+
+        if (response.ok) {
+          status.textContent = "✅ Thank you! Your message has been sent.";
+          status.style.color = "green";
+          form.reset();
+        } else {
+          status.textContent = "❌ Oops! Something went wrong. Try again.";
+          status.style.color = "red";
+        }
+      } catch (error) {
+        status.textContent = "⚠️ Network error. Please try later.";
+        status.style.color = "red";
+      }
+    });
+
+    // Scroll Reveal Animations
+    const animatedElements = document.querySelectorAll("[data-animate]");
+    const revealOnScroll = () => {
+      animatedElements.forEach(el => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight - 100) {
+          el.classList.add("show");
+        }
+      });
+    };
+    window.addEventListener("scroll", revealOnScroll);
+    revealOnScroll();
+  </script>
+
+</body>
+</html>
