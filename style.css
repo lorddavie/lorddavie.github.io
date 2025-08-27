@@ -34,6 +34,31 @@ p {
 a {
   text-decoration: none;
 }
+/* Sticky Hire Me Button */
+.sticky-hire-btn {
+    position: fixed;      /* Sticky position */
+    bottom: 20px;         /* Distance from bottom */
+    right: 20px;          /* Distance from right */
+    background-color: #e63e4a; /* Red background */
+    color: white;         /* Text color */
+    padding: 12px 20px;   /* Space inside the button */
+    border-radius: 8px;   /* Rounded corners */
+    text-decoration: none;/* Remove underline */
+    font-weight: bold;    
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2); /* Optional shadow */
+    transition: transform 0.2s, box-shadow 0.2s; /* Hover effect */
+    z-index: 9999;        /* Make sure it’s above other elements */
+}
+
+.sticky-hire-btn:hover {
+    transform: translateY(-3px);  
+    box-shadow: 0 6px 10px rgba(0,0,0,0.3); 
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
 
 /* =========================
    NAVBAR
@@ -339,30 +364,4 @@ footer a:hover {
   .hero h1 {
     font-size: 2.2rem;
   }
-  /* Sticky Hire Me Button */
-  .sticky-hire-btn {
-    position: fixed;      /* Sticky position */
-    bottom: 20px;         /* Distance from bottom */
-    right: 20px;          /* Distance from right */
-    background-color: #e63e4a; /* Red background */
-    color: white;         /* Text color */
-    padding: 12px 20px;   /* Space inside the button */
-    border-radius: 8px;   /* Rounded corners */
-    text-decoration: none;/* Remove underline */
-    font-weight: bold;    
-    box-shadow: 0 4px 6px rgba(0,0,0,0.2); /* Optional shadow */
-    transition: transform 0.2s, box-shadow 0.2s; /* Hover effect */
-    z-index: 9999;        /* Make sure it’s above other elements */
-  }
-
-  .sticky-hire-btn:hover {
-    transform: translateY(-3px);  
-    box-shadow: 0 6px 10px rgba(0,0,0,0.3); 
-  }
-
-/* Smooth scroll */
-  html {
-    scroll-behavior: smooth;
-  } 
-
   }
