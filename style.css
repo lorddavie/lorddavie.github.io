@@ -244,7 +244,7 @@ form button {
 .hire-me {
   text-align: center;
   padding: 60px 20px;
-  background: #f4f4f4;
+  background: #e63e4a;
 }
 
 .hire-me h2 {
@@ -339,7 +339,7 @@ footer a:hover {
   .hero h1 {
     font-size: 2.2rem;
   }
-     .sticky-hire-btn {
+  .sticky-hire-btn {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -352,7 +352,7 @@ footer a:hover {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   transition: 0.3s;
   z-index: 999;
-     }
+  }
   .sticky-hire-btn:hover {
   background: #005bbb;
   }
