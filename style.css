@@ -341,21 +341,27 @@ footer a:hover {
   }
    
   .sticky-hire-btn {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: #0077ff;
-  color: #fff;
-  padding: 12px 20px;
-  border-radius: 50px;
-  font-weight: bold;
-  text-decoration: none;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: 0.3s;
-  z-index: 999;
-  }
-   
-  .sticky-hire-btn:hover {
-  background: #005bbb;
-  }
+    position: fixed;      /* Sticky position */
+    bottom: 20px;         /* Distance from bottom */
+    right: 20px;          /* Distance from right */
+    background-color: #e63e4a; /* Red background */
+    color: white;         /* Text color */
+    padding: 12px 20px;   /* Space inside the button */
+    border-radius: 8px;   /* Rounded corners */
+    text-decoration: none;/* Remove underline */
+    font-weight: bold;    
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2); /* Optional shadow */
+    transition: transform 0.2s, box-shadow 0.2s; /* Hover effect */
+}
+
+/* Hover effect */
+.sticky-hire-btn: hover {
+    transform: translateY(-3px);  
+    box-shadow: 0 6px 10px rgba(0,0,0,0.3); 
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
   }
